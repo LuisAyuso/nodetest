@@ -14,6 +14,8 @@ find_package(Qt5 COMPONENTS
              Gui
              OpenGL)
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 # look for externals
 # ================
 add_subdirectory(extern)
